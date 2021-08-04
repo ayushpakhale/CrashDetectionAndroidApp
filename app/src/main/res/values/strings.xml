@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CrashSOS</string>
+
+    <string name="navigation_drawer_close">navigation drawer close</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hey_there">Hey There</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name - "
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/textView_nameInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/textView_contact1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact- "
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/textView_contact1Input1"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name - "
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/textView_nameInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/textView_contact2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact 1 - "
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/textView_contact2Input2"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="@color/white"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="Save" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

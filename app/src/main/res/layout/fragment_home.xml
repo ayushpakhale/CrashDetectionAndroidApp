@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_home"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:paddingLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:paddingTop="50dp"
+        android:text="Hey There \n While Our Users Safety is the most important thing to us
+But, You yourself can also improve your security by doing Some Basic Things like \n
+1 > Tie Your Seatbelts/Helmets\n
+2 > Drive slowly and always Sober\n
+3 > Use indicators while turning\n
+And Don't Forget To Enjoy Your Ride!!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOS"
+        android:background="@color/white"
+        android:id="@+id/button_SOS"
+        android:layout_gravity="center"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
