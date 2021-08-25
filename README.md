@@ -1,9 +1,3 @@
 # CrashDetectionAndroidApp
 
-
-this is basically an android app which uses mobiles gyro sensor, accelerometer, GPS and GSM sensor to detect a crash.
-It is light Weight on the mobile's cpu as well.
-upon detecting a crash it will start a location service which constantly gets the users location and upon getting the location, it will send the -
-location to the added contacts.
-If the location in not accurate or it gets a more accurate location, then it will send the location co-ordinates again.
-the location sent as the co-ordinates can be directly opened in the google maps as a link.
+This is basically an android app that uses a smartphone's Gyro sensor, Accelerometer, GPS, and GSM sensor to detect a crash. It is lightweight on the smartphone's CPU. Upon detecting a crash it will start a location service that constantly gets the user's location and upon getting the location, it will send the location coordinates in the form of a link to the added contacts. If the location is not accurate or it gets a more accurate location, then it will send the location coordinates again. the location sent as the coordinates can be directly opened in google maps as a link.
